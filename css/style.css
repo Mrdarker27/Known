@@ -1,0 +1,1273 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    text-decoration: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+ol,
+ul {
+    list-style: none;
+}
+del {
+    text-decoration: line-through;
+}
+body {
+    font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #000;
+    overflow-x: hidden;
+    min-width: 320px;
+    font-weight: 500;
+}
+.bar {
+    display: none;
+}
+input,
+textarea,
+select {
+    font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.fa-circle:before {
+    content: "\f111";
+    font-size: 12px;
+    color: #869791;
+}
+.fa-chevron-left:before {
+    content: "\f053";
+    background: #d6d6d6;
+    color: #fff;
+    padding: 10px;
+    border-radius: 2px;
+}
+.fa-chevron-right:before {
+    content: "\f054";
+    background: #d6d6d6;
+    color: #fff;
+    padding: 10px;
+    border-radius: 2px;
+}
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.fa-phone-alt:before {
+    background: #5ccb8e;
+    color: #fff;
+    padding: 50%;
+    border-radius: 50%;
+}
+header {
+    background: #fff;
+    border-top: 6px solid #5ccb8e;
+    height: 70px;
+    align-items: center;
+    display: flex;
+}
+
+header section.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1280px;
+    height: 100%;
+}
+
+header section.wrapper div.left {
+}
+
+header section.wrapper div.left h2 {
+}
+
+header section.wrapper div.left h2 a {
+    color: #4a4a4a;
+    font-weight: 600;
+}
+
+header section.wrapper div.middle {
+    height: 100%;
+}
+
+header section.wrapper div.middle ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+header section.wrapper div.middle ul li {
+    padding: 22px;
+}
+
+header section.wrapper div.middle ul li a {
+    color: #4a4a4a;
+    font-weight: 600;
+}
+header section.wrapper div.middle ul li:hover {
+    background: #5ccb8e;
+}
+header section.wrapper div.middle ul li a:hover {
+    color: #fff;
+}
+header section.wrapper div.right {
+}
+
+header section.wrapper div.right i.bx {
+}
+
+header section.wrapper div.right a {
+    display: inline-block;
+    color: #4a4a4a;
+}
+header section.wrapper div.right a i {
+    display: inline-block;
+    margin-right: 23px;
+}
+
+header section.wrapper div.right a i.bx {
+}
+section.spotlight {
+    background-image: url(../images/slider-image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position-y: -130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.spotlight img {
+    position: relative;
+}
+
+section.spotlight section.wrapper {
+}
+
+section.spotlight section.wrapper h2 {
+    font-size: 54px;
+    width: 544px;
+    font-weight: 600;
+    color: #fff;
+}
+
+section.spotlight section.wrapper p {
+    color: #fff;
+    width: 656px;
+    padding: 23px 0;
+    font-size: 20px;
+}
+
+section.spotlight section.wrapper a.button {
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 32px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    text-decoration: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+ol,
+ul {
+    list-style: none;
+}
+del {
+    text-decoration: line-through;
+}
+body {
+    font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #000;
+    overflow-x: hidden;
+    min-width: 320px;
+    font-weight: 500;
+}
+input,
+textarea,
+select {
+    font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.fa-phone-alt:before {
+    background: #5ccb8e;
+    color: #fff;
+    padding: 50%;
+    border-radius: 50%;
+}
+header {
+    background: #fff;
+    border-top: 6px solid #5ccb8e;
+    height: 70px;
+    align-items: center;
+    display: flex;
+}
+
+header section.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1280px;
+    height: 100%;
+}
+
+header section.wrapper div.left {
+}
+
+header section.wrapper div.left h2 {
+}
+
+header section.wrapper div.left h2 a {
+    color: #4a4a4a;
+    font-weight: 600;
+}
+
+header section.wrapper div.middle {
+    height: 100%;
+}
+
+header section.wrapper div.middle ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+header section.wrapper div.middle ul li {
+    padding: 22px;
+}
+
+header section.wrapper div.middle ul li a {
+    color: #4a4a4a;
+    font-weight: 600;
+}
+header section.wrapper div.middle ul li:hover {
+    background: #5ccb8e;
+}
+header section.wrapper div.middle ul li a:hover {
+    color: #fff;
+}
+header section.wrapper div.right {
+}
+
+header section.wrapper div.right i.bx {
+}
+
+header section.wrapper div.right a {
+    display: inline-block;
+    color: #4a4a4a;
+}
+header section.wrapper div.right a i {
+    display: inline-block;
+    margin-right: 23px;
+}
+
+header section.wrapper div.right a i.bx {
+}
+section.spotlight {
+    background-image: url(../images/slider-image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position-y: -130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.spotlight img {
+    position: relative;
+}
+
+section.spotlight section.wrapper {
+}
+
+section.spotlight section.wrapper h2 {
+    font-size: 54px;
+    width: 544px;
+    font-weight: 600;
+    color: #fff;
+}
+
+section.spotlight section.wrapper p {
+    color: #fff;
+    width: 656px;
+    padding: 23px 0;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+section.spotlight section.wrapper a.button {
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 32px;
+    color: #979797;
+}
+#about {
+}
+
+#about section.wrapper {
+    display: flex;
+}
+
+#about section.wrapper ul {
+    display: flex;
+    padding: 9% 0;
+    justify-content: space-between;
+}
+
+#about section.wrapper ul li {
+    border: 1px solid #f1f1f1;
+    width: 30%;
+    padding: 8% 5%;
+}
+
+#about section.wrapper ul li span {
+    width: 21px;
+    background: #3f51b5;
+    padding: 15px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 29px;
+}
+
+#about section.wrapper ul li h4 {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 26px 0px;
+}
+
+#about section.wrapper ul li p {
+    font-size: 17px;
+    color: #989898;
+}
+#ourteachers {
+}
+
+#ourteachers section.wrapper {
+    display: flex;
+}
+
+#ourteachers section.wrapper div.left {
+}
+
+#ourteachers section.wrapper div.left h3 {
+    font-size: 44px;
+    width: 100%;
+}
+
+#ourteachers section.wrapper div.left ul {
+    padding-top: 60px;
+}
+
+#ourteachers section.wrapper div.left ul li {
+    margin: 30px 0;
+    padding-bottom: 40px;
+}
+
+#ourteachers section.wrapper div.left ul li div.iconour {
+    display: flex;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#ourteachers section.wrapper div.left ul li div.iconour span {
+    display: inline-block;
+    margin-right: 20px;
+    position: absolute;
+    bottom: -14px;
+}
+#ourteachers section.wrapper div.left ul li div.iconour span i::before {
+    background: #5ccb8e;
+    padding: 18px;
+    border-radius: 50%;
+    color: #fff;
+}
+#ourteachers section.wrapper div.left ul li div.iconour h5 {
+    font-size: 25px;
+    margin-left: 82px;
+}
+
+#ourteachers section.wrapper div.left ul li p {
+    margin-left: 80px;
+}
+
+#ourteachers section.wrapper div.right {
+    background: #252020;
+    padding: 118px 170px;
+    border-radius: 50%;
+    margin-bottom: 85px;
+}
+
+#ourteachers section.wrapper div.right h3 {
+    color: #fff;
+    font-size: 38px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+#ourteachers section.wrapper div.right form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#ourteachers section.wrapper div.right form input {
+    font-size: 16px;
+    border-bottom: 1px solid #717070;
+    padding: 18px;
+}
+#ourteachers section.wrapper div.right form input.get {
+    background: #fff;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-top: 55px;
+}
+#coures {
+    background: #f9f9f9;
+}
+
+#coures section.item {
+}
+
+#coures section.item section.wrapper {
+}
+#coures section.item section.wrapper h1 {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 128px;
+}
+#coures section.item section.wrapper p {
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+#coures section.item section.wrapper ul {
+    display: flex;
+}
+
+#coures section.item section.wrapper ul li {
+    margin-right: 22px;
+    margin-bottom: 108px;
+}
+#coures section.item section.wrapper ul li div.container {
+    width: 100%;
+}
+
+#coures section.item section.wrapper ul li div.container img {
+    width: 100%;
+    display: block;
+    height: 331px;
+}
+
+#coures section.item section.wrapper ul li div.buttom {
+    background: #fff;
+    height: 85px;
+    padding: 20px 20px;
+}
+#coures section.item section.wrapper ul li div.social {
+    background: #fff;
+    padding: 18px 0px 18px 10px;
+    border-top: 3px solid #f9f9f9;
+}
+#coures section.item section.wrapper ul li div.buttom h4 {
+    font-size: 26px;
+    padding-left: 25px;
+}
+
+#coures section.item section.wrapper ul li div.buttom p {
+    font-size: 16px;
+    text-align: start;
+    padding-left: 25px;
+}
+
+#coures section.item section.wrapper ul li div.social span i {
+    padding-left: 35px;
+}
+
+#populer {
+}
+
+#populer section.wrapper {
+}
+
+#populer section.wrapper div.top {
+}
+
+#populer section.wrapper div.top h3 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#populer section.wrapper div.top p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 65px;
+    color: #b7b7b7;
+}
+
+#populer section.wrapper div.top ul {
+    display: flex;
+}
+
+#populer section.wrapper div.top ul li {
+    padding-right: 25px;
+}
+
+#populer section.wrapper div.top ul li div.img-container {
+}
+
+#populer section.wrapper div.top ul li div.img-container img {
+    width: 100%;
+    display: block;
+    height: 270px;
+}
+
+#populer section.wrapper div.top ul li div.Date {
+    position: absolute;
+    margin-top: -34px;
+    margin-left: 24px;
+    font-size: 18px;
+}
+
+#populer section.wrapper div.top ul li div.Date i.bx {
+    padding: 10px;
+    color: #fff;
+}
+
+#populer section.wrapper div.top ul li div.bottom {
+    background: #f9f9f9;
+}
+
+#populer section.wrapper div.top ul li div.bottom h3 {
+    font-size: 22px;
+    padding-top: 20px;
+    text-align: start;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+#populer section.wrapper div.top ul li div.bottom p {
+    text-align: start;
+    margin-left: 15px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+#populer section.wrapper div.top ul li div.bottom span.icon-img {
+    display: inline-block;
+    width: 15%;
+    margin-right: 38px;
+}
+
+#populer section.wrapper div.top ul li div.bottom span.icon-img img {
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+    margin-left: 18px;
+}
+
+#populer section.wrapper div.top ul li div.bottom h6 {
+    font-size: 18px;
+    margin-right: -8%;
+    width: 60%;
+}
+
+#populer section.wrapper div.top ul li div.bottom a.button {
+}
+
+#populer section.wrapper section.bottom {
+}
+
+#populer section.wrapper section.bottom div.img-bottom {
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 150px;
+}
+#populer section.wrapper div.top ul li div.bottom div.bottom-name {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#populer section.wrapper section.bottom div.img-bottom img {
+}
+
+#populer section.wrapper div.top ul li:nth-child(1) div.bottom a.button {
+    background-color: #3f51b5;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+#populer section.wrapper div.top ul li:nth-child(2) div.bottom a.button {
+    background: #5ccb8e;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+#populer section.wrapper div.top ul li:nth-child(3) div.bottom a.button {
+    background-color: #3f51b5;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+section.reviews {
+    background: #f9f9f9;
+}
+
+section.reviews section.wrapper {
+}
+
+section.reviews section.wrapper h2 {
+    font-size: 34px;
+    font-weight: 600;
+    padding-top: 150px;
+    text-align: center;
+}
+
+section.reviews section.wrapper p {
+    color: #9b9b9b;
+    font-size: 15px;
+    text-align: center;
+    /* margin-bottom: 7px; */
+}
+
+section.reviews section.wrapper ul {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+section.reviews section.wrapper ul li {
+    background-color: #fff;
+    padding: 47px;
+    width: 29%;
+    margin-right: 32px;
+}
+section.reviews section.wrapper ul li div.img-box {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+section.reviews section.wrapper ul li span {
+    display: block;
+    width: 18%;
+    margin-right: 24px;
+}
+
+section.reviews section.wrapper ul li span img {
+    width: 100%;
+    display: block;
+    border-radius: 50%;
+}
+
+section.reviews section.wrapper ul li h5 {
+    font-size: 22px;
+}
+
+section.reviews section.wrapper ul li p {
+}
+
+section.reviews section.wrapper ul li div.content {
+    color: grey;
+}
+
+section.reviews section.wrapper ul li div.content blockquote {
+    font-size: 17px;
+    line-height: 1.6em;
+    margin-bottom: 32px;
+}
+
+section.reviews section.wrapper ul li div.content p {
+}
+
+section.reviews section.wrapper ul li div.content div.star {
+}
+
+section.reviews section.wrapper ul li div.content div.star i::before {
+    color: #3f51b5;
+    font-size: 15px;
+}
+
+section.reviews section.wrapper div.circle {
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+section.reviews section.wrapper div.circle i.bx {
+}
+#contact {
+    background: #3f51b5;
+}
+
+#contact section.wrapper {
+    display: flex;
+}
+
+#contact section.wrapper div.left {
+    width: 60%;
+}
+
+#contact section.wrapper div.left h2 {
+    color: #fff;
+    font-size: 30px;
+    padding-top: 100px;
+}
+
+#contact section.wrapper div.left p {
+    font-size: 22px;
+    color: #f7f7f7;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+#contact section.wrapper div.left form {
+    margin-bottom: 100px;
+}
+
+#contact section.wrapper div.left form input {
+    background: #fff;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#contact section.wrapper div.left form br {
+}
+
+#contact section.wrapper div.left form #txt {
+    background: #fff;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#contact section.wrapper div.right {
+    width: 40%;
+    margin-left: 30px;
+}
+
+#contact section.wrapper div.right div.img {
+}
+
+#contact section.wrapper div.right div.img img {
+    display: block;
+    width: 100%;
+    margin-top: 100px;
+}
+#contact section.wrapper div.left form input[type="submit"] {
+    width: 28%;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+footer {
+    background: #252020;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+footer section.wrapper {
+}
+
+footer section.wrapper section.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer section.wrapper section.container div.left {
+}
+
+footer section.wrapper section.container div.left h3 {
+    color: #fff;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+footer section.wrapper section.container div.left p {
+    color: #6f6e6e;
+    padding-bottom: 15px;
+}
+
+footer section.wrapper section.container div.left p br {
+}
+
+footer section.wrapper section.container div.left div.icons {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+footer section.wrapper section.container div.left div.icons a {
+    margin-right: 25px;
+}
+
+footer section.wrapper section.container div.left div.icons a i::before {
+    color: #5ccb8e;
+}
+footer section.wrapper section.container div.left span {
+}
+
+footer section.wrapper section.container div.left span p {
+}
+
+footer section.wrapper section.container div.middle {
+}
+
+footer section.wrapper section.container div.middle div.info {
+}
+
+footer section.wrapper section.container div.middle div.info h2 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+footer section.wrapper section.container div.middle div.info p {
+}
+
+footer section.wrapper section.container div.middle div.info p a {
+    color: #7b7a7a;
+}
+
+footer section.wrapper section.container div.middle div.info p a br {
+}
+
+footer section.wrapper section.container div.middle div.link {
+}
+
+footer section.wrapper section.container div.middle div.link h2 {
+    color: #ffff;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+footer section.wrapper section.container div.middle div.link ul {
+    display: flex;
+}
+
+footer section.wrapper section.container div.middle div.link ul li {
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+
+footer section.wrapper section.container div.middle div.link ul li a {
+    color: #7b7a7a;
+}
+
+footer section.wrapper section.container div.middle div.link p {
+    color: #7b7a7a;
+}
+
+footer section.wrapper section.container div.right {
+}
+
+footer section.wrapper section.container div.right h2 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+footer section.wrapper section.container div.right br {
+}
+
+footer section.wrapper section.container div.right form {
+    padding: 20px;
+}
+
+footer section.wrapper section.container div.right form input[type="submit"] {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 20px 45px;
+    margin-top: 15px;
+    border-radius: 40px;
+}
+
+footer section.wrapper section.container div.right form br {
+}
+
+footer section.wrapper section.container div.right p {
+    color: #6e6c6c;
+    font-size: 13px;
+    margin: 10px;
+}
+footer section.wrapper section.container div.right form input[type="email"] {
+    border-bottom: 1px solid #6e6c6c;
+    padding: 16px;
+    width: 127%;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+@media (max-width: 1280px) {
+    header section.wrapper div.left h2 {
+        margin-left: 50px;
+    }
+    header section.wrapper div.right {
+        margin-right: 40px;
+    }
+}
+@media (max-width: 980px) {
+    header section.wrapper div.middle ul li {
+        padding: 14px;
+    }
+    header section.wrapper div.middle {
+        height: 100%;
+        margin-right: 73px;
+    }
+    header section.wrapper div.middle ul li a {
+        color: #4a4a4a;
+        font-weight: 400;
+    }
+    section.spotlight section.wrapper h2 {
+        font-size: 51px;
+        width: 750px;
+        font-weight: 600;
+        color: #fff;
+    }
+    section.spotlight section.wrapper a.button {
+        border: 2px solid #fff;
+        padding: 15px;
+        border-radius: 32px;
+        color: #979797;
+    }
+    #ourteachers section.wrapper {
+        flex-direction: column;
+    }
+    #ourteachers section.wrapper div.left h3 {
+        font-size: 34px;
+        width: 92%;
+    }
+    #ourteachers section.wrapper div.left ul {
+        padding-top: 60px;
+        width: 100%;
+    }
+    #ourteachers section.wrapper div.right {
+        background: #252020;
+        padding: 118px 170px;
+        border-radius: 50%;
+        margin-bottom: 85px;
+        width: 65%;
+        margin-left: 25px;
+    }
+    #ourteachers section.wrapper div.right h3 {
+        color: #fff;
+        font-size: 35px;
+        margin-bottom: 40px;
+        font-weight: 600;
+    }
+    #coures section.item section.wrapper ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #coures section.item section.wrapper ul li {
+        margin-right: 22px;
+        margin-bottom: 108px;
+        margin-left: 85px;
+    }
+    #populer section.wrapper div.top ul li:nth-child(1) {
+        display: none;
+    }
+    #populer section.wrapper div.top ul li:nth-child(3) {
+        display: none;
+    }
+    #populer section.wrapper div.top ul li div.img-container img {
+        width: 100%;
+        display: block;
+        height: 550px;
+    }
+    section.reviews section.wrapper ul li:nth-child(2) {
+        display: none;
+    }
+    section.reviews section.wrapper ul li:nth-child(3) {
+        display: none;
+    }
+    section.reviews section.wrapper ul li {
+        background-color: #fff;
+        padding: 47px;
+        width: 77%;
+        margin-right: 32px;
+    }
+    section.reviews section.wrapper p {
+        font-size: 20px;
+    }
+    #contact section.wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    #contact section.wrapper div.left {
+        width: 100%;
+        padding: 20px 28px;
+    }
+    #contact section.wrapper div.left form input[type="submit"] {
+        width: 100%;
+    }
+    #contact section.wrapper div.right {
+        width: 95%;
+        margin-bottom: 65px;
+    }
+    footer section.wrapper section.container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer section.wrapper section.container div.left {
+        width: 50%;
+    }
+    footer
+        section.wrapper
+        section.container
+        div.right
+        form
+        input[type="email"] {
+        width: 300%;
+    }
+    footer
+        section.wrapper
+        section.container
+        div.right
+        form
+        input[type="submit"] {
+        padding: 15px 80px;
+    }
+}
+@media (max-width: 768px) {
+    header section.wrapper div.middle ul li {
+        padding: 10px;
+    }
+    header section.wrapper div.middle ul li a {
+        font-size: 12px;
+    }
+    header section.wrapper div.middle ul li {
+        padding: 8px;
+    }
+    header section.wrapper div.left h2 a {
+        font-size: 20px;
+    }
+    header section.wrapper div.right a i {
+        font-size: 12px;
+    }
+    header section.wrapper div.right a {
+        font-size: 15px;
+    }
+    section.spotlight section.wrapper h2 {
+        font-size: 38px;
+        width: 550px;
+        font-weight: 600;
+        color: #fff;
+    }
+    section.spotlight section.wrapper p {
+        font-size: 16px;
+    }
+    section.spotlight section.wrapper a.button {
+        border: 2px solid #fff;
+        padding: 15px;
+        border-radius: 32px;
+        color: #fff;
+        font-size: 10px;
+    }
+    #ourteachers section.wrapper div.right {
+        background: #252020;
+        padding: 37px 170px;
+        border-radius: 50%;
+        margin-bottom: 85px;
+        width: 65%;
+        margin-left: 25px;
+    }
+    #ourteachers section.wrapper div.right h3 {
+        color: #fff;
+        font-size: 24px;
+        margin-bottom: 30px;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+    #ourteachers section.wrapper div.right {
+        background: #252020;
+        padding: 37px 160px;
+        border-radius: 50%;
+        margin-bottom: 85px;
+        width: 72%;
+        margin-left: 25px;
+    }
+    #ourteachers section.wrapper div.right form input.get {
+        background: #fff;
+        border-radius: 30px;
+        font-size: 14px;
+        margin-top: 55px;
+        padding: 12px 20px;
+    }
+    #coures section.item section.wrapper ul li {
+        margin-bottom: 108px;
+        width: 46%;
+        margin-right: 27px;
+        margin-left: 0px;
+    }
+    section.reviews section.wrapper ul li {
+        background-color: #fff;
+        padding: 47px;
+        width: 100%;
+        margin-right: 32px;
+    }
+    footer
+        section.wrapper
+        section.container
+        div.right
+        form
+        input[type="submit"] {
+        padding: 15px 134px;
+    }
+
+}
+@media (max-width:640px) {
+    header section.wrapper div.middle ul {
+        display: none;
+    }
+    header section.wrapper div.right {
+        display: none;
+    }
+    .bar {
+        display: block;
+        padding: 10px;
+    }
+    footer
+        section.wrapper
+        section.container
+        div.right
+        form
+        input[type="email"] {
+        width: 170%;
+    }
+    section.spotlight section.wrapper p {
+        font-size: 16px;
+    }
+    section.spotlight section.wrapper p {
+        width: 100%;
+    }
+    #about section.wrapper ul {
+        display: flex;
+        padding: 9% 0;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #about section.wrapper ul li {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    #ourteachers section.wrapper div.right {
+        background: #252020;
+        padding: 71px 170px;
+        border-radius: 50%;
+        margin-bottom: 85px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    #coures section.item section.wrapper ul li {
+        margin-bottom: 108px;
+        width: 100%;
+       
+        margin-right: 27px;
+        margin-left: 0px;
+    }
+    #coures section.item section.wrapper ul li div.container img {
+        width: 100%;
+        display: block;
+        height: 100%;
+    }
+    #populer section.wrapper div.top ul li div.img-container img {
+        width: 100%;
+        display: block;
+        height: 500px;
+    }
+    footer section.wrapper section.container div.left {
+        width: 100%;
+    }
+    footer section.wrapper section.container div.left,div.middle,div.right {
+        padding-bottom: 25px;
+    }
+}
+@media (max-width:480px) {
+    section.spotlight section.wrapper h2 {
+        font-size: 24px;
+        width: 400px;
+        font-weight: 600;
+        color: #fff;
+    }
+    section.spotlight section.wrapper p {
+        color: #fff;
+        padding: 18px 0;
+        margin-bottom: 0px;
+    }
+    section.spotlight section.wrapper a.button {
+        border: 1px solid #fff;
+        padding: 10px;
+        border-radius: 32px;
+        color: #fff;
+        font-size: 10px;
+    }
+    #ourteachers section.wrapper div.right {
+        background: #252020;
+        padding: 3px 130px;
+        border-radius: 0%;
+        margin-bottom: 60px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    #ourteachers section.wrapper div.right form input.get {
+        background: #fff;
+        border-radius: 30px;
+        font-size: 14px;
+        margin-top: 35px;
+        padding: 12px 20px;
+        margin-bottom: 25px;
+    }
+    #populer section.wrapper div.top ul li div.img-container img {
+        width: 100%;
+        display: block;
+        height: 420px;
+    }
+    section.reviews section.wrapper h2 {
+        font-size: 34px;
+        font-weight: 600;
+        padding-top: 60px;
+        text-align: center;
+    }
+    footer section.wrapper section.container div.right form input[type="email"] {
+        width: 100%;
+    }
+}
